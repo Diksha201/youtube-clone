@@ -1,0 +1,123 @@
+.main-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 5%;
+}
+.searchBar {
+    height: 35px;
+    border-radius: 25px;
+    width: 600px;
+}
+
+
+.signInButton{
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+
+}
+.page{
+    display: flex;
+    height: 100vh;
+}
+
+/*side bar css*/
+.sidebar{
+    width: 20%;
+}
+
+.sidebar button{
+    display: flex;
+    height: 30px;
+    width: 98%;
+    background-color: rgb(231, 234, 236);
+    border: none;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.main{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.thumnil{
+    height: 200px;
+    border-radius: 2%;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+.card-body{
+    display: flex;
+
+}
+
+.chanelimage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.VideoPage{
+    display: flex;
+
+}
+
+.videoItem{
+    width: 65%;
+
+}
+
+.suggestionBar{
+    width: 30%;
+   
+    margin: 20px;
+
+}
+
+.iframe-video{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 2%;
+    margin: 10px;
+}
+
+.suggestion-card{
+    display: flex;
+    
+   
+
+}
+
+.suggestion-thumnil{
+    height: 100px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
